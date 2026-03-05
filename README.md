@@ -291,11 +291,3 @@ spring.r2dbc.initialization-mode=always
 ✅ Complete documentation and quick start guide
 ✅ Gradle build configuration with Spring Boot 3.4.1
 ✅ Removed unused dependencies (R2dbcEntityTemplate)
-
-## Author
-
-Technical Test for Scotia Bank Digital Factory Peru
-
-## License
-
-This project is provided as-is for evaluation purposes.
