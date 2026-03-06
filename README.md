@@ -1,4 +1,4 @@
-z# Scotia Tech Technical Test - Student Management Microservice
+# Scotia Tech Technical Test - Student Management Microservice
 
 ## Project Overview
 
