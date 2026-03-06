@@ -258,8 +258,8 @@ spring.r2dbc.initialization-mode=always
 - Total Tests: 23
   - Controller Layer Tests: 9
   - Service Layer Tests: 5
-  - Integration Tests: 7
-  - Demo Script Tests: 2
+  - Integration Tests: 8
+  - Demo Script Tests: 1
 - Pass Rate: 100%
 - Coverage: Controller, Service, and API layers
 

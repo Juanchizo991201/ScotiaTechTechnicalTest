@@ -138,6 +138,25 @@ class StudentIntegrationTest {
     }
 
     @Test
+    @DisplayName("Debe crear un estudiante válido")
+    void testCreateStudentSuccessfully() {
+        StudentDTO studentDTO = StudentDTO.builder()
+                .id("INT_VALID_STUDENT")
+                .nombre("Juan")
+                .apellido("García")
+                .estado("ACTIVO")
+                .edad(30)
+                .build();
+
+        webTestClient.post()
+                .uri("/api/students")
+                .contentType(MediaType.APPLICATION_JSON)
+                .bodyValue(studentDTO)
+                .exchange()
+                .expectStatus().isCreated();
+    }
+
+    @Test
     @DisplayName("Debe obtener lista de estudiantes activos")
     void testGetActiveStudents() {
         webTestClient.get()
