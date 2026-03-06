@@ -201,15 +201,6 @@ kill -9 <PID>  # Kill process
 - **H2** - In-Memory Database
 - **JUnit 5** - Testing
 - **Mockito** - Mocking
-
-## 12. Next Steps for Interview
-
-1. **Understand the code**: Review each layer
-2. **Run the tests**: Verify all tests pass
-3. **Start the application**: Test endpoints manually
-4. **Explain the architecture**: Be ready to discuss design decisions
-5. **Show error handling**: Demonstrate validation and error responses
-
----
-
-**Good luck with your presentation!**
+- **Gradle** - Build Tool
+- **Lombok** - Code Generation
+- 

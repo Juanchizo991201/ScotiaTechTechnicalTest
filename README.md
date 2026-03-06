@@ -276,18 +276,3 @@ spring.r2dbc.initialization-mode=always
 ```bash
 ./gradlew clean build --refresh-dependencies
 ```
-
-## Project Deliverables
-
-✅ Reactive REST microservice with Spring WebFlux
-✅ Student creation endpoint with validation and duplicate checking
-✅ Get active students endpoint (filtered by status = "ACTIVO")
-✅ H2 in-memory database persistence with R2DBC
-✅ 23 comprehensive unit and integration tests
-✅ Service layer tests with Mockito mocking
-✅ Controller tests with WebTestClient
-✅ Integration tests with in-memory database
-✅ Global exception handling with custom error responses
-✅ Complete documentation and quick start guide
-✅ Gradle build configuration with Spring Boot 3.4.1
-✅ Removed unused dependencies (R2dbcEntityTemplate)
